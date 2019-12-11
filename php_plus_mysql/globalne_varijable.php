@@ -1,5 +1,5 @@
 <?php
-$polje_brojeva= array();
+$polje_brojeva=array();
 
 function showpolje(){
     global $polje_brojeva;
@@ -16,7 +16,4 @@ showpolje();
 
 print_r($_ENV);
 echo "Mysql je instaliran ovdje:".$_SERVER['MYSQL_HOME'];
-
 print_r($_SERVER);
-
-
