@@ -5,4 +5,3 @@ session_unset();
 header('Location: session_prva.php');
 die();
 ?>
-
