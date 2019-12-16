@@ -1,29 +1,9 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@tantic1 
-Learn Git and GitHub without any code!
-Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
-
-
-1
-18algebra2020/phpdev2020
- Code Issues 0 Pull requests 0 Actions Projects 0 Wiki Security Insights
-phpdev2020/php_plus_mysql/08_zadaca_11122019/3zadatak_heredoc.php
-@mrvic mrvic greška kod pripremljenih upita DZ nadji grešku
-5747896 3 days ago
-245 lines (187 sloc)  5.21 KB
-  
 <?php
 include '../mysql_proc_conn.php';
 ?>
 
 <style>
+
     #naslov{
         display: block;
         width: 95%;
@@ -35,6 +15,7 @@ include '../mysql_proc_conn.php';
         font-size: 18pt;
         color:white;
     }
+
     .pitanje{
         display: inline-block;
         width: 95%;
@@ -44,6 +25,7 @@ include '../mysql_proc_conn.php';
         font-weight: bolder;
         border: 1pt black dotted;
     }
+
     .odgovor{
         display: inline-block;
         width: 95%;
@@ -53,6 +35,9 @@ include '../mysql_proc_conn.php';
         background: lightgray;
         font-weight: normal;
     }
+
+
+
     .kod{
         display: inline-block;
         width: 66%;
@@ -62,18 +47,31 @@ include '../mysql_proc_conn.php';
         background:  #4F7849;
         font: italic;
     }
+
     .izvod{
+
         display: inline-block;
+
         width: 50%;
+
         padding: 0.9em 0;
+
         margin: 0.5em;
+
         text-align: left;
+
         background: white;
+
         font: italic;
+
     }
+
     .tab { margin-left: 40px; }
+
     table, th, td {
+
         border: 1px solid black;
+
     }
 .gumb{
     float:center;
@@ -82,6 +80,7 @@ include '../mysql_proc_conn.php';
      padding: 1%;
      background-color: lightgray;
      color:#000;}
+
 .button1 {
     background-color: white;
     color: black;
@@ -93,6 +92,8 @@ include '../mysql_proc_conn.php';
     font-size: 16px;
     margin-left: 20px;
 }
+
+
 /* mouse over link */
 a:hover {
         color: red;
@@ -130,6 +131,8 @@ table tfoot {
 table tfoot td {
   font-size: 21px;
 }
+
+
 </style>
 
 <!-- Naslov -->
@@ -171,6 +174,7 @@ BILOKOJITEXT;
        
 //echo '<hr>';
         //mysqli_data_seek($result, 0);  // vrati me opet na početak 
+
         
  //echo '<hr>';
         
@@ -199,6 +203,7 @@ for ($i = 0; $i < $result->field_count; $i++) {
                     <?php
                     //for ($i = 0; $i < $result->num_rows; $i++) {
                    // mysqli_data_seek($result, 0);  // vrati me opet na početak 
+
                     while ($row=mysqli_fetch_array($result)){
                   
                         echo "<tr>";
@@ -238,15 +243,3 @@ for ($i = 0; $i < $result->field_count; $i++) {
            
     </div>
        
-© 2019 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
