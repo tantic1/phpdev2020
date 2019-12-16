@@ -15,4 +15,3 @@ Dobrodošli u trgovinu <?=$_SESSION['moja_var']?> vaš trenutni oznos na racunu 
     <input type="submit" name="kupi_btn" value="kupi">
 </form>
 
-
